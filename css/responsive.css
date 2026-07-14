@@ -1,29 +1,90 @@
-@media(max-width:1024px){
+/* ===============================
+   1200px
+=============================== */
 
-.container{
+@media (max-width:1200px){
 
-width:92%;
+    .container{
+        width:92%;
+    }
+
+    .logo-am,
+    .logo-z{
+        font-size:40px;
+    }
+
+    .logo-expand{
+        font-size:25px;
+        margin-top:10px;
+    }
+
+}
+
+/* ===============================
+   992px
+=============================== */
+
+@media (max-width:992px){
+
+    .btn{
+        width:200px;
+        height:50px;
+    }
 
 }
 
+/* ===============================
+   768px
+=============================== */
+
+@media (max-width:768px){
+
+    .header{
+        padding:18px 0;
+    }
+
+    .nav{
+        display:none;
+    }
+
+    .logo-am,
+    .logo-z{
+        font-size:34px;
+    }
+
+    .logo-expand{
+        font-size:22px;
+        margin-top:8px;
+    }
+
+    .btn{
+        width:180px;
+        height:46px;
+        font-size:14px;
+    }
+
 }
 
-@media(max-width:768px){
+/* ===============================
+   480px
+=============================== */
 
-section{
+@media (max-width:480px){
 
-padding:70px 0;
+    .logo-am,
+    .logo-z{
+        font-size:28px;
+    }
 
-}
+    .logo-expand{
+        font-size:18px;
+        margin-top:6px;
+    }
 
-}
-
-@media(max-width:480px){
-
-section{
-
-padding:55px 0;
-
-}
+    .btn{
+        width:150px;
+        height:40px;
+        font-size:12px;
+    }
 
 }
