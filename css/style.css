@@ -1,6 +1,6 @@
-/* ==========================================
+/* 
    GLOBAL STYLES
-========================================== */
+ */
 
 body {
     font-family: "Inter", sans-serif;
@@ -29,9 +29,9 @@ h3 {
     line-height: 1.1;
 }
 
-/* ==========================================
+/* 
    BUTTON
-========================================== */
+ */
 
 .btn {
     display: inline-flex;
@@ -52,9 +52,9 @@ h3 {
     box-shadow: 0 15px 30px rgba(247,147,30,.35);
 }
 
-/* ==========================================
+/* 
    HEADER
-========================================== */
+ */
 
 .header {
     position: absolute;
@@ -71,9 +71,9 @@ h3 {
     justify-content: space-between;
 }
 
-/* ==========================================
+/* 
    LOGO
-========================================== */
+ */
 
 .logo {
     display: flex;
@@ -115,9 +115,9 @@ h3 {
     line-height: 1;
 }
 
-/* ==========================================
+/* 
    NAVIGATION
-========================================== */
+ */
 
 .nav {
     margin-left: auto;
@@ -146,17 +146,17 @@ h3 {
     color: var(--primary);
 }
 
-/* ==========================================
+/* 
    HEADER BUTTON
-========================================== */
+ */
 
 .header__btn {
     flex-shrink: 0;
 }
 
-/* ==========================================
+/* 
    HERO SECTION
-========================================== */
+ */
 
 .hero{
     padding-top:129px;
@@ -307,9 +307,9 @@ h3 {
     color:#00000099;
 }
 
-/* ==========================================
+/* 
    AUDIT METRICS & LOGO STYLES (UPDATED)
-========================================== */
+ */
 
 .desktop-container {
     width: 1440px;
@@ -452,9 +452,9 @@ h3 {
     display: none;
 }
 
-/* ==========================================
+/* 
    SUMMARY SECTION DESKTOP BASE (1440px)
-========================================== */
+ */
 
 .summary-section {
     background: #FFFFFF;
@@ -579,9 +579,9 @@ h3 {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(232, 128, 10, 0.35);
 }
-/* ==========================================
+/* 
    FOUNDER BIO SECTION DESKTOP BASE (1440px)
-========================================== */
+ */
 
 .founder-section {
     background: #F5F4F0; /* Clean background parameter applied from design panel */
@@ -691,9 +691,9 @@ h3 {
     color: #E8800A;
     font-weight: 500;
 }
-/* ==========================================================
-   PRODUCTION ENGINE CODE: PERFORMANCE MATRIX BLOCK (1440px)
-========================================================== */
+
+  /*  PRODUCTION ENGINE CODE: PERFORMANCE MATRIX BLOCK (1440px) */
+
 
 .cases-section {
     width: 1440px;
@@ -979,9 +979,9 @@ h3 {
 .slider-dots {
     display: none;
 }
-/* ==========================================================
-   PRODUCTION ENGINE CODE: PERFORMANCE GUARANTEE BANNER
-========================================================== */
+
+    /* PRODUCTION ENGINE CODE: PERFORMANCE GUARANTEE BANNER */
+
 
 .guarantee-section {
     width: 100%;
@@ -1138,9 +1138,9 @@ h3 {
     color: #FFFFFF;
 }
 
-/* ==========================================================
-   PRODUCTION ENGINE CODE: ACCORDION FAQ BLOCK (1440px)
-========================================================== */
+
+  /* PRODUCTION ENGINE CODE: ACCORDION FAQ BLOCK (1440px) */
+
 
 .booking-faq-section {
     width: 1440px;
@@ -1351,9 +1351,9 @@ h3 {
 .faq-gradient-cta-btn:hover .cta-arrow {
     transform: translateX(4px);
 }
-/* ==========================================================
-   PRODUCTION ENGINE CODE: RESULTS & COMMITMENT (1440px)
-========================================================== */
+
+   /* PRODUCTION ENGINE CODE: RESULTS & COMMITMENT (1440px)
+*/
 
 .results-commitment-section {
     width: 1440px;
@@ -1583,9 +1583,9 @@ h3 {
 }
 
 
-/* ==========================================================
-   PRODUCTION ENGINE CODE: COST PREVIEW AUDIT BANNER (1440px)
-========================================================== */
+
+   /* PRODUCTION ENGINE CODE: COST PREVIEW AUDIT BANNER (1440px) */
+
 
 .cost-audit-section {
     width: 1440px;
@@ -1600,7 +1600,7 @@ h3 {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin : 0 auto;
 }
 
 .cost-master-wrapper {
@@ -1775,5 +1775,133 @@ h3 {
     line-height: 140%;
     letter-spacing: 0px;
     color: #7C7D81; /* Precise color profile mapping code applied */
+    margin: 0;
+}
+
+
+
+   /* PRODUCTION ENGINE CODE: FOOTER SYSTEM DESIGN (1440px) */
+
+
+.main-footer-section {
+    width: 1440px;
+    height: 247px;
+    padding-top: 40.8px;
+    padding-right: 176px;
+    padding-bottom: 40.8px;
+    padding-left: 176px;
+    background-color: #0D1119; /* Perfect background hex parameter sync validation */
+    border-top: 0.8px solid rgba(232, 128, 10, 0.08); /* Calculated matching color #E8800A14 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+.footer-master-wrapper {
+    width: 1088px;
+    height: 173.82px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Top Row Framework Setup (1060px inner space targets) */
+.footer-row-top {
+    width: 1060px;
+    height: 45.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+.footer-brand-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-logo-link {
+    width: 98px;
+    height: 22px;
+    display: inline-flex;
+}
+
+.footer-brand-slogan {
+    width: 288px;
+    height: 17px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.06px;
+    color: rgba(251, 202, 129, 0.8); /* Refined configuration matching color #FBCA81CC token */
+    margin: 0;
+}
+
+.footer-links-column {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-nav-link {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.footer-nav-link:hover {
+    color: #E8800A;
+}
+
+/* Horizontal Center Line Divider Constraint Box Layer rules */
+.footer-divider-line {
+    width: 1060px;
+    height: 1px;
+    border-top: 0.8px solid rgba(255, 255, 255, 0.05); /* Matches parameter target mapping color #FFFFFF0D */
+    margin-top: 31px;
+    margin-bottom: 24.2px;
+}
+
+/* Bottom Metric Data Info Row Setup */
+.footer-row-bottom {
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.footer-copyright-text {
+    width: 211px;
+    height: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 19.32px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+.footer-disclaimer-text {
+    width: 707px;
+    height: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 19.32px;
+    letter-spacing: 0px;
+    color: rgba(234, 236, 240, 0.7); /* Maps clean layout to input layer tint color #EAECF0B2 */
     margin: 0;
 }

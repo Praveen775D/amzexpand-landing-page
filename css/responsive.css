@@ -900,3 +900,69 @@
         max-width: 267px;
     }
 }
+
+
+/* Append directly within your existing @media (max-width: 1200px) layout block array */
+@media (max-width: 1200px) {
+    .main-footer-section {
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .footer-master-wrapper,
+    .footer-row-top,
+    .footer-divider-line,
+    .footer-row-bottom {
+        width: 100%;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 992px) tablet container rule */
+@media (max-width: 992px) {
+    .footer-row-top {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-row-bottom {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .footer-disclaimer-text {
+        width: 100%;
+        height: auto;
+    }
+    .footer-divider-line {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 768px) mobile view engine block */
+@media (max-width: 768px) {
+    .main-footer-section {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .footer-row-top {
+        align-items: center;
+        text-align: center;
+    }
+    .footer-brand-column {
+        align-items: center;
+    }
+    .footer-brand-slogan {
+        width: 100%;
+        height: auto;
+    }
+    .footer-row-bottom {
+        align-items: center;
+        text-align: center;
+    }
+    .footer-copyright-text {
+        width: 100%;
+    }
+}
