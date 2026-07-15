@@ -979,3 +979,162 @@ h3 {
 .slider-dots {
     display: none;
 }
+/* ==========================================================
+   PRODUCTION ENGINE CODE: PERFORMANCE GUARANTEE BANNER
+========================================================== */
+
+.guarantee-section {
+    width: 100%;
+    min-height: 587px;
+    background-color: #121620; /* Dark premium corporate canvas background color matched from asset */
+    background-image: radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 40%, transparent 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.guarantee-inner-container {
+    width: 1440px;
+    max-width: 100%;
+    padding: 60px 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px; /* Perfectly aligned structural gap metric space distribution */
+    box-sizing: border-box;
+}
+
+/* Left Side Column Grid Alignment Layer */
+.guarantee-badge-pane {
+    width: 287px;
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.guarantee-counter-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.giant-stat-number {
+    width: 207px;
+    height: 187px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 204px;
+    line-height: 187px;
+    letter-spacing: 4.4px;
+    color: #E8800A; /* Exact brand orange styling constraint profile values mapped */
+    margin: 0;
+}
+
+.stat-badge-title {
+    width: 244px;
+    height: 54px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.45); /* #FFFFFF73 opacity level approximation overlay */
+    margin-top: 4px;
+}
+
+.guarantee-action-wrapper {
+    width: 195px;
+    height: 54px;
+}
+
+.guarantee-pill-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #EC8311 0%, #FA9E3A 100%);
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.guarantee-pill-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(236, 131, 17, 0.3);
+}
+
+/* Right Side Text Block Container Framework */
+.guarantee-text-block {
+    width: 666px;
+    height: 348.3px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    box-sizing: border-box;
+}
+
+.guarantee-primary-title {
+    width: 666px;
+    height: 59px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 58.8px;
+    letter-spacing: 1px;
+    color: #EAECF0;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    margin: 0;
+}
+
+.guarantee-paragraphs-stack {
+    width: 666px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.guarantee-desc-text {
+    width: 648px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.80); /* #FFFFFFCC layout spec configuration applied */
+    margin: 0;
+}
+
+.guarantee-desc-text.text-emphasized {
+    font-weight: 400;
+}
+
+.guarantee-desc-text strong {
+    font-weight: 600; /* Maps directly to the SemiBold sub-property rule layer instructions */
+    color: #FFFFFF;
+}
+
