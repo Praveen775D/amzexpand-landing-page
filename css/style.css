@@ -1138,3 +1138,216 @@ h3 {
     color: #FFFFFF;
 }
 
+/* ==========================================================
+   PRODUCTION ENGINE CODE: ACCORDION FAQ BLOCK (1440px)
+========================================================== */
+
+.booking-faq-section {
+    width: 1440px;
+    min-height: 913.59px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    background: #F5F4F0; /* Perfect parameter canvas background injection */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.faq-master-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.faq-header-block {
+    width: 705px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.faq-main-title {
+    width: 705px;
+    height: 67px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #1C182B;
+    margin: 0;
+}
+
+.faq-main-title .orange-highlight {
+    color: #E8800A;
+}
+
+.faq-subtitle-text {
+    width: 705px;
+    height: 58px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28.8px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* Accordion Component Framework Configuration Layer (610px Width Constraints) */
+.faq-accordion-stack {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.faq-card-item {
+    width: 610px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 2px 6px 0px rgba(26, 30, 39, 0.04);
+    box-sizing: border-box;
+}
+
+/* Active Highlight Outline state variables */
+.faq-card-item.active {
+    border: 1px solid #E8800A;
+}
+
+.faq-card-trigger {
+    width: 100%;
+    min-height: 60px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.faq-item-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #e8800a;
+}
+
+.faq-item-heading .orange-text {
+    color: #e8800a;
+}
+
+/* Dynamic State Structural Toggle Circle Icons */
+.faq-toggle-icon {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 0.8px solid #C2C5CC; /* Clear baseline design sheet parameters applied */
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6B7280;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+}
+
+.faq-card-item.active .faq-toggle-icon {
+    background: #1C182B;
+    color: #FFFFFF;
+    border-color: #1C182B;
+}
+
+/* Internal Expanded Panel Container Box Layout */
+.faq-card-body {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+}
+
+.faq-card-item.active .faq-card-body {
+    max-height: 200px; /* Adapts and handles text wrap extensions smoothly */
+}
+
+.faq-body-copy {
+    width: 578px;
+    padding: 0 16px 16px 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: #5E626C;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Core Gradient CTA Action Button Design Profiles */
+.faq-action-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.faq-gradient-cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    width: 335px;
+    height: 61px;
+    padding: 20px 36px;
+    background: linear-gradient(90deg, #EC8311 0%, #FA9E3A 100%); /* Exact layout panel gradient properties */
+    border-radius: 9999px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-gradient-cta-btn span {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.17px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.faq-gradient-cta-btn .cta-arrow {
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.faq-gradient-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(236, 131, 17, 0.35);
+}
+
+.faq-gradient-cta-btn:hover .cta-arrow {
+    transform: translateX(4px);
+}
