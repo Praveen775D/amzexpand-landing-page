@@ -153,3 +153,301 @@ h3 {
 .header__btn {
     flex-shrink: 0;
 }
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+    padding-top:129px;
+    background:#ffffff;
+}
+
+.hero-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-content{
+    max-width:843px;
+    width:100%;
+    text-align:center;
+}
+
+.hero-title{
+    font-family:"Anton",sans-serif;
+    font-weight:400;
+    font-size:57px;
+    line-height:120%;
+    letter-spacing:2px;
+    text-align:center;
+    color:#1C182B;
+    margin:0;
+}
+
+.hero-title span{
+    color:#E8800A;
+}
+
+.hero-description{
+    max-width:640px;
+    width:100%;
+    margin:16px auto 0;
+    font-family:"DM Sans",sans-serif;
+    font-weight:500;
+    font-size:20px;
+    line-height:160%;
+    letter-spacing:0;
+    text-align:center;
+    color:#5E626C;
+}
+
+/* VIDEO */
+
+.hero-video-wrapper{
+    position:relative;
+    margin-top:48px;
+}
+
+.hero-video{
+    width:800px;
+    height:453.9px;
+    border-radius:16px;
+    overflow:hidden;
+    border:1px solid #ffffff;
+}
+
+.hero-video img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* RECOVER CARD */
+
+.recovery-card{
+    position:absolute;
+    left:-94px;
+    bottom:-35px;
+    width:188px;
+    height:119px;
+    background:#ffffff;
+    border-radius:16px;
+    border:.8px solid #ddd;
+    padding:18px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    box-shadow:0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.recovery-card p{
+    font-family:"DM Sans";
+    font-size:12px;
+    color:#5E626C;
+}
+
+.recovery-card strong{
+    font-family:"DM Sans";
+    font-size:32px;
+    color:#1C182B;
+}
+
+.recovery-card span{
+    font-size:11px;
+    color:#5E626C;
+}
+
+/* CTA */
+
+.hero-action{
+    margin-top:100px;
+    text-align:center;
+}
+
+.slots{
+    font-family:"DM Sans";
+    font-size:14px;
+    font-weight:600;
+    line-height:12px;
+    letter-spacing:1.2px;
+    text-transform:capitalize;
+    color:#E8800A;
+    margin-bottom:24px;
+}
+
+.audit-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:335px;
+    height:61px;
+    background:#FA9E3A;
+    color:#fff;
+    border-radius:9999px;
+    font-family:"DM Sans";
+    font-size:16px;
+    font-weight:700;
+    margin:auto;
+}
+
+.trust-items{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin-top:20px;
+}
+
+.trust-items span{
+    font-family:"DM Sans";
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1.2px;
+    color:#00000099;
+}
+
+/* ==========================================
+   AUDIT METRICS & LOGO STYLES (UPDATED)
+========================================== */
+
+.desktop-container {
+    width: 1440px;
+    min-height: 814.36px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 94px;
+    opacity: 1;
+    margin: 0 auto;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.stats-wrapper {
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    opacity: 1;
+}
+
+.header-group {
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    opacity: 1;
+}
+
+.header-icon {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.subtitle-top {
+    width: 584px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.2px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.subtitle-top strong {
+    font-weight: 700;
+}
+
+.main-stat {
+    width: 452px;
+    height: 156px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 124px;
+    line-height: 156px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #E8800A;
+    text-transform: none;
+    margin: 0;
+}
+
+.subtitle-timeline {
+    width: 167px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.2px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.subtitle-timeline strong {
+    font-weight: 700;
+}
+
+.note-box {
+    width: 458px;
+    min-height: 26px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #111827;
+    background: #FFF4E8;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.logos-container {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    opacity: 1;
+    padding: 20px 0;
+}
+
+.logos-slider-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.logo-item {
+    width: 146.29px;
+    height: 116.16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item img {
+    max-width: 105.38px;
+    max-height: 112.20px;
+    object-fit: contain;
+    opacity: 1;
+}
+
+.slider-dots {
+    display: none;
+}

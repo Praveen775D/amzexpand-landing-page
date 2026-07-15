@@ -1,90 +1,380 @@
-/* ===============================
-   1200px
-=============================== */
+/* ==========================================
+   LARGE DESKTOP (1200px)
+========================================== */
 
-@media (max-width:1200px){
+@media (max-width: 1200px) {
 
-    .container{
-        width:92%;
+    .container {
+        width: 92%;
     }
 
     .logo-am,
-    .logo-z{
-        font-size:40px;
+    .logo-z {
+        font-size: 40px;
     }
 
-    .logo-expand{
-        font-size:25px;
-        margin-top:10px;
+    .logo-expand {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .hero-content {
+        width: 90%;
+    }
+
+    .hero-title {
+        font-size: 52px;
+    }
+
+    .hero-description {
+        width: 80%;
+    }
+
+    .hero-video {
+        width: 100%;
+        max-width: 760px;
+        height: auto;
+        aspect-ratio: 800 / 454;
+    }
+
+    /* --- Audit Metrics Section --- */
+    .desktop-container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 60px;
+    }
+
+    .logos-container {
+        width: 100%;
+    }
+    
+    .logos-slider-track {
+        justify-content: center;
+        gap: 30px;
     }
 
 }
 
-/* ===============================
-   992px
-=============================== */
+/* ==========================================
+   TABLET (992px)
+========================================== */
 
-@media (max-width:992px){
+@media (max-width: 992px) {
 
-    .btn{
-        width:200px;
-        height:50px;
+    .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .hero-title {
+        font-size: 44px;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-description {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .hero-video {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .recovery-card {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .hero-action {
+        margin-top: 70px;
+    }
+
+    /* --- Audit Metrics Section --- */
+    .desktop-container {
+        min-height: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap: 48px;
+    }
+
+    .stats-wrapper,
+    .header-group {
+        width: 100%;
+    }
+
+    .main-stat {
+        font-size: 96px;
+        height: auto;
+        line-height: 1.1;
     }
 
 }
 
-/* ===============================
-   768px
-=============================== */
+/* ==========================================
+   MOBILE & TABLET (768px)
+========================================== */
 
-@media (max-width:768px){
+@media (max-width: 768px) {
 
-    .header{
-        padding:18px 0;
+    /* ---------- Header ---------- */
+
+    .header {
+        padding: 18px 0;
     }
 
-    .nav{
-        display:none;
+    .nav {
+        display: none;
     }
 
     .logo-am,
-    .logo-z{
-        font-size:34px;
+    .logo-z {
+        font-size: 34px;
     }
 
-    .logo-expand{
-        font-size:22px;
-        margin-top:8px;
+    .logo-expand {
+        font-size: 22px;
+        margin-top: 8px;
     }
 
-    .btn{
-        width:180px;
-        height:46px;
-        font-size:14px;
+    .btn {
+        width: 180px;
+        height: 46px;
+        font-size: 14px;
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        padding-top: 110px;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-title {
+        font-size: 38px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .hero-description {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .hero-video-wrapper {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+
+    .hero-video {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 800 / 454;
+    }
+
+    /* Recovery card inside video */
+
+    .recovery-card {
+        width: 150px;
+        height: 95px;
+        left: 12px;
+        bottom: 12px;
+        padding: 12px;
+    }
+
+    .recovery-card strong {
+        font-size: 24px;
+    }
+
+    .recovery-card p {
+        font-size: 10px;
+    }
+
+    .recovery-card span {
+        font-size: 9px;
+    }
+
+    .hero-action {
+        margin-top: 45px;
+        padding: 0 20px;
+    }
+
+    .audit-btn {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .trust-items {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    /* --- Audit Metrics Section & Active Mobile Slider Layout --- */
+    .desktop-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 40px;
+    }
+
+    .subtitle-top {
+        width: 100%;
+        font-size: 18px;
+        height: auto;
+    }
+
+    .main-stat {
+        font-size: 76px;
+        width: 100%;
+    }
+
+    .subtitle-timeline {
+        width: 100%;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .note-box {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    /* Turn parent footer layout into vertical layout stack to support dots below logos */
+    .logos-container {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Set up horizontal overflow scroll slide panel track */
+    .logos-slider-track {
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none; /* Hide standard gray scrollbar on Firefox */
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .logos-slider-track::-webkit-scrollbar {
+        display: none; /* Hide scrollbars on Webkit browsers */
+    }
+
+    .logo-item {
+        flex: 0 0 calc(50% - 10px); /* Display 2 logos per slide view pane */
+        scroll-snap-align: center;
+        height: 90px;
+    }
+
+    .logo-item img {
+        max-width: 100%;
+        max-height: 80px;
+    }
+
+    /* Activate Navigation Indicator Dots Row */
+    .slider-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        background-color: #D1D5DB;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+        background-color: #000000; /* Distinct dark color for active viewport step */
     }
 
 }
 
-/* ===============================
-   480px
-=============================== */
+/* ==========================================
+   SMALL MOBILE (480px)
+========================================== */
 
-@media (max-width:480px){
+@media (max-width: 480px) {
 
     .logo-am,
-    .logo-z{
-        font-size:28px;
+    .logo-z {
+        font-size: 28px;
     }
 
-    .logo-expand{
-        font-size:18px;
-        margin-top:6px;
+    .logo-expand {
+        font-size: 18px;
+        margin-top: 6px;
     }
 
-    .btn{
-        width:150px;
-        height:40px;
-        font-size:12px;
+    .btn {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .recovery-card {
+        width: 120px;
+        height: 80px;
+        left: 10px;
+        bottom: 10px;
+        padding: 10px;
+    }
+
+    .recovery-card strong {
+        font-size: 20px;
+    }
+
+    .recovery-card p,
+    .recovery-card span {
+        font-size: 8px;
+    }
+
+    .trust-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* --- Audit Metrics Section --- */
+    .main-stat {
+        font-size: 56px;
+        letter-spacing: 1px;
+    }
+
+    .subtitle-top {
+        font-size: 16px;
+    }
+
+    .note-box {
+        font-size: 14px;
+    }
+
+    .logo-item {
+        flex: 0 0 100%; /* Switch down to single isolated center logo item per snap panel for tight layouts */
     }
 
 }
