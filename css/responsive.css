@@ -378,3 +378,88 @@
     }
 
 }
+/* Add inside your existing @media (max-width: 992px) container rule block */
+@media (max-width: 992px) {
+    .summary-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 40px;
+    }
+    
+    .cards-grid {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .summary-card {
+        flex: 0 0 calc(50% - 20px);
+        max-width: 100%;
+    }
+}
+
+/* Append completely inside your existing @media (max-width: 768px) rule blocks */
+@media (max-width: 768px) {
+    /* Exact pixel properties matching your specified 390px layout instructions */
+    .summary-container {
+        max-width: 390px;
+        padding-top: 48px;
+        padding-right: 20px;
+        padding-bottom: 48px;
+        padding-left: 20px;
+        gap: 32px;
+    }
+
+    .summary-title {
+        width: 350px;
+        height: auto;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 1px;
+    }
+
+    .cards-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .summary-card {
+        flex: 0 0 auto;
+        width: 350px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .card-image-box {
+        width: 350px;
+        height: 312px;
+        border-radius: 8px;
+        border: 0.8px dashed rgba(28, 24, 43, 0.4); /* Dashed border parameter spec applied */
+    }
+
+    .card-text-box {
+        width: 350px;
+        padding-right: 16px;
+        padding-left: 16px;
+        gap: 8px;
+        box-sizing: border-box;
+    }
+
+    .card-heading {
+        width: 100%;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: -0.27px;
+    }
+    
+    .card-desc {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .summary-cta-btn {
+        width: 100%;
+        max-width: 350px;
+        box-sizing: border-box;
+    }
+}

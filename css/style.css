@@ -451,3 +451,131 @@ h3 {
 .slider-dots {
     display: none;
 }
+
+/* ==========================================
+   SUMMARY SECTION DESKTOP BASE (1440px)
+========================================== */
+
+.summary-section {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.summary-container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    box-sizing: border-box;
+}
+
+.summary-title {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1C182B;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.summary-title .highlight {
+    color: #E8800A;
+}
+
+.cards-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+}
+
+.summary-card {
+    flex: 1;
+    max-width: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-image-box {
+    width: 100%;
+    height: 312px;
+    background: #FFF9F2; /* Cream tinted placeholder background matching image layout shapes */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
+
+.card-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.27px;
+    color: #111827;
+    text-transform: none;
+}
+
+.card-desc {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5E626C;
+}
+
+/* Section Action Button Custom Formatting */
+.summary-action {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.summary-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 36px;
+    background: #E8800A;
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(232, 128, 10, 0.2);
+}
+
+.summary-cta-btn:hover {
+    background: #D07204;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 128, 10, 0.35);
+}
