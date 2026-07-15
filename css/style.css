@@ -579,3 +579,403 @@ h3 {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(232, 128, 10, 0.35);
 }
+/* ==========================================
+   FOUNDER BIO SECTION DESKTOP BASE (1440px)
+========================================== */
+
+.founder-section {
+    background: #F5F4F0; /* Clean background parameter applied from design panel */
+    width: 100%;
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+
+.founder-container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    box-sizing: border-box;
+}
+
+/* Left Media Frame layout */
+.founder-media {
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.founder-image-wrapper {
+    width: 298px;
+    height: 380px; /* Adapts cleanly inside portrait spec frame heights */
+    border-radius: 12px;
+    overflow: hidden;
+    background: #E5E4E0;
+}
+
+.founder-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founder-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.badge-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5E626C;
+}
+
+.badge-stat {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    padding: 4px 12px;
+    background: #EBEAE5;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1C182B;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Right Text Frame layout */
+.founder-content {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.founder-title {
+    width: 950px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66.56px;
+    letter-spacing: 1px;
+    color: #1C182B;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    margin: 0;
+}
+
+.founder-title .highlight {
+    color: #E8800A;
+}
+
+.founder-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* Specific inner orange highlights spec mappings */
+.founder-text.text-highlight span {
+    color: #E8800A;
+    font-weight: 500;
+}
+/* ==========================================================
+   PRODUCTION ENGINE CODE: PERFORMANCE MATRIX BLOCK (1440px)
+========================================================== */
+
+.cases-section {
+    width: 1440px;
+    min-height: 1289.95px;
+    padding: 60px 80px;
+    background-color: #F5F4F0; /* Exact color spec found in properties panel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.cases-main-wrapper {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.cases-header-block {
+    width: 705px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.cases-title-text {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #1C182B;
+    margin: 0;
+}
+
+.cases-title-text .orange-highlight {
+    color: #E8800A;
+}
+
+.cases-description-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.44;
+    text-align: center;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* Data Matrix Layout Setup (1080px Max Width Mapping) */
+.cases-matrix-display {
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Featured Split Card Row Framing Layout */
+.featured-case-container {
+    width: 1080px;
+    min-height: 450px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    /* Precise composite box-shadow mappings extracted from properties panel */
+    box-shadow: 0px 14px 34px 0px rgba(26, 30, 39, 0.12), 
+                0px 2px 6px 0px rgba(26, 30, 39, 0.10);
+}
+
+.featured-graphic-frame {
+    width: 539px;
+    background-color: #0B0E14; /* Deep indigo dark placeholder shade matching mockup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.screenshot-label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+}
+
+.featured-details-pane {
+    width: 541px;
+    padding: 48px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.client-meta-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.client-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1C182B;
+    margin: 0;
+}
+
+.client-subtitle {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5E626C;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.client-subtitle .stars {
+    color: #FA9E3A;
+    margin-left: 4px;
+}
+
+.metrics-badge-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.metric-pill {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.metric-pill.orange-pill {
+    background: #FFF4E8;
+    color: #E8800A;
+}
+
+.metric-pill.gray-pill {
+    background: #F3F4F6;
+    color: #5E626C;
+}
+
+.featured-narrative-copy {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4B5563;
+    margin: 0;
+}
+
+.featured-narrative-copy .orange-text {
+    color: #E8800A;
+    font-weight: 500;
+}
+
+/* Lower Tri-Grid Alignment Properties */
+.cases-matrix-grid {
+    width: 1080px;
+    display: flex;
+    gap: 20px;
+}
+
+.matrix-card-item {
+    width: 346.66px; /* Perfect fractional allocation split */
+    height: 431px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: 0.8px solid #E5E7EB;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 0px rgba(26, 30, 39, 0.10);
+    box-sizing: border-box;
+}
+
+.matrix-card-thumbnail {
+    width: 100%;
+    height: 195.58px;
+    background: linear-gradient(180deg, #D5D7DD 0%, #ECEFF4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix-card-thumbnail .screenshot-label {
+    color: rgba(28, 24, 43, 0.35);
+}
+
+.matrix-card-body {
+    padding: 20px 22px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.matrix-card-meta-line {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.matrix-client-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+    color: #1C182B;
+}
+
+.matrix-rating-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.matrix-category-label {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6B7280;
+}
+
+.matrix-rating-score {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #E8800A;
+}
+
+.matrix-metric-badge-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.matrix-pill-metric {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #E8800A;
+}
+
+.matrix-pill-duration {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #6B7280;
+}
+
+.matrix-card-paragraph {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* Slider Controls Configuration (Hidden natively on Desktop layout models) */
+.slider-dots {
+    display: none;
+}

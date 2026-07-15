@@ -463,3 +463,162 @@
         box-sizing: border-box;
     }
 }
+/* Add inside your existing @media (max-width: 1200px) block */
+@media (max-width: 1200px) {
+    .founder-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 40px;
+    }
+    
+    .founder-content {
+        width: auto;
+    }
+
+    .founder-title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 1.3;
+    }
+}
+
+/* Add inside your existing @media (max-width: 992px) block */
+@media (max-width: 992px) {
+    .founder-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .founder-media {
+        width: 100%;
+        max-width: 350px;
+        align-items: center;
+    }
+
+    .founder-image-wrapper {
+        width: 100%;
+        height: 400px;
+    }
+
+    .founder-badges {
+        align-items: center;
+        text-align: center;
+    }
+
+    .founder-content {
+        gap: 24px;
+        text-align: center;
+    }
+}
+
+/* Add inside your existing @media (max-width: 768px) block */
+@media (max-width: 768px) {
+    .founder-section {
+        padding: 64px 0;
+    }
+
+    .founder-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 32px;
+    }
+
+    .founder-title {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .founder-text {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+/* Append inside your existing @media (max-width: 1200px) layout block */
+@media (max-width: 1200px) {
+    .cases-section {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .cases-main-wrapper,
+    .cases-matrix-display,
+    .featured-case-container,
+    .cases-matrix-grid {
+        width: 100%;
+    }
+}
+
+/* Append inside your existing @media (max-width: 992px) tablet block */
+@media (max-width: 992px) {
+    .cases-header-block {
+        width: 100%;
+    }
+    .featured-case-container {
+        flex-direction: column;
+    }
+    .featured-graphic-frame {
+        width: 100%;
+        height: 260px;
+    }
+    .featured-details-pane {
+        width: 100%;
+        padding: 32px;
+    }
+}
+
+/* Append inside your existing @media (max-width: 768px) mobile view engine */
+@media (max-width: 768px) {
+    .cases-section {
+        padding: 48px 20px;
+    }
+    .cases-title-text {
+        font-size: 38px;
+    }
+    .cases-description-text {
+        font-size: 16px;
+    }
+    
+    /* Configures the secondary subgrid array container to switch layout roles into a swipe track slider */
+    .cases-matrix-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none; /* Disables gray system scroll track lines */
+        gap: 16px;
+        padding: 8px 4px 16px 4px;
+    }
+    
+    .cases-matrix-grid::-webkit-scrollbar {
+        display: none; /* Disables standard webkit scrollbar */
+    }
+
+    .matrix-card-item {
+        flex: 0 0 280px; /* Locks solid asset widths to isolate cards while sliding */
+        scroll-snap-align: center;
+        height: auto;
+        min-height: 400px;
+    }
+
+    /* Activates structural dots array for pagination feedback */
+    .slider-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-top: 12px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        background-color: #D1D5DB;
+        border-radius: 50%;
+        transition: background-color 0.25s ease;
+    }
+
+    .dot.active {
+        background-color: #E8800A; /* Matches project focal color brandings */
+        transform: scale(1.2);
+    }
+}
