@@ -1351,3 +1351,233 @@ h3 {
 .faq-gradient-cta-btn:hover .cta-arrow {
     transform: translateX(4px);
 }
+/* ==========================================================
+   PRODUCTION ENGINE CODE: RESULTS & COMMITMENT (1440px)
+========================================================== */
+
+.results-commitment-section {
+    width: 1440px;
+    min-height: 1077px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    background: #F5F4F0; /* Perfect template background synchronization mapping */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.results-master-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.results-header-block {
+    width: 705px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.results-main-title {
+    width: 705px;
+    height: 134px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #1C182B;
+    margin: 0;
+}
+
+.results-main-title .orange-highlight {
+    color: #E8800A;
+}
+
+.results-subtitle-text {
+    width: 705px;
+    height: 58px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28.8px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* 3-Column Metric Display Cards Grid Row Frame Layout (842px Constraint) */
+.info-cards-row {
+    width: 842px;
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.info-card-item {
+    width: 264.66px;
+    height: 132px;
+    padding: 20px 16px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0px 2px 6px 0px rgba(26, 30, 39, 0.04);
+    box-sizing: border-box;
+}
+
+.info-card-header-group {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.info-card-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.info-giant-number {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #E8800A; /* Exact brand orange style constraints profile applied */
+}
+
+.info-giant-number.currency-symbol {
+    font-size: 38px;
+    margin-right: -2px;
+}
+
+.info-card-label {
+    width: 232.66px;
+    height: 44px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1C182B;
+    margin: 0;
+}
+
+/* Text Content Rules Stack Framework (624px Center Alignment Profile) */
+.rules-text-stack {
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px; /* Smooth padding gap separation buffer between items */
+    box-sizing: border-box;
+}
+
+.rule-block-group {
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.rule-small-badge {
+    width: 624px;
+    height: 21px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1.32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C182B;
+    margin: 0;
+}
+
+.rule-small-badge.text-orange {
+    color: #E8800A; /* Commitment label highlight layout setting */
+}
+
+.rule-paragraph-copy {
+    width: 624px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5E626C;
+    margin: 0;
+}
+
+/* Core Gradient CTA Action Button Design Profiles */
+.results-action-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.results-gradient-cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    width: 335px;
+    height: 61px;
+    padding: 20px 36px;
+    background: linear-gradient(90deg, #EC8311 0%, #FA9E3A 100%);
+    border-radius: 9999px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.results-gradient-cta-btn span {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.17px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.results-gradient-cta-btn .cta-arrow {
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: transform 0.2s ease;
+}
+
+.results-gradient-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(236, 131, 17, 0.35);
+}
+
+.results-gradient-cta-btn:hover .cta-arrow {
+    transform: translateX(4px);
+}

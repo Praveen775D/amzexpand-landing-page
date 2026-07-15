@@ -760,3 +760,81 @@
         max-width: 335px;
     }
 }
+
+
+/* Append directly within your existing @media (max-width: 1200px) array block */
+@media (max-width: 1200px) {
+    .results-commitment-section {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .info-cards-row {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 992px) tablet block */
+@media (max-width: 992px) {
+    .results-header-block {
+        width: 100%;
+        height: auto;
+    }
+    .results-main-title,
+    .results-subtitle-text,
+    .rules-text-stack,
+    .rule-block-group,
+    .rule-small-badge,
+    .rule-paragraph-copy {
+        width: 100%;
+        height: auto;
+    }
+    .info-card-item {
+        flex: 0 0 calc(50% - 12px);
+        max-width: 290px;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 768px) mobile view engine */
+@media (max-width: 768px) {
+    .results-commitment-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .results-main-title {
+        font-size: 40px;
+    }
+    .results-subtitle-text {
+        font-size: 17px;
+        line-height: 1.4;
+    }
+    .info-cards-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .info-card-item {
+        width: 100%;
+        max-width: 335px;
+        flex: 0 0 auto;
+    }
+    .rule-paragraph-copy {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+/* Append inside your existing @media (max-width: 480px) small mobile target */
+@media (max-width: 480px) {
+    .results-main-title {
+        font-size: 34px;
+    }
+    .results-gradient-cta-btn {
+        width: 100%;
+        max-width: 335px;
+    }
+}
