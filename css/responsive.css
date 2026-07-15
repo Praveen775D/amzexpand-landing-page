@@ -838,3 +838,65 @@
         max-width: 335px;
     }
 }
+
+
+/* Append directly within your existing @media (max-width: 1200px) array block */
+@media (max-width: 1200px) {
+    .cost-audit-section {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 992px) tablet block */
+@media (max-width: 992px) {
+    .cost-info-block,
+    .cost-paragraphs-stack,
+    .cost-body-copy,
+    .audit-preview-panel,
+    .preview-drawer-card {
+        width: 100%;
+        height: auto;
+    }
+    .preview-bullets-list li,
+    .preview-footer-summary {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Append directly within your existing @media (max-width: 768px) mobile view engine */
+@media (max-width: 768px) {
+    .cost-audit-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cost-main-title {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .cost-body-copy {
+        font-size: 17px;
+    }
+    .preview-toggle-trigger {
+        width: 100%;
+    }
+    .preview-drawer-card {
+        padding: 24px;
+        border-radius: 16px;
+    }
+}
+
+/* Append inside your existing @media (max-width: 480px) small mobile spec target */
+@media (max-width: 480px) {
+    .cost-main-title {
+        font-size: 34px;
+    }
+    .cost-gradient-btn {
+        width: 100%;
+        max-width: 267px;
+    }
+}
